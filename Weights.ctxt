@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\ The\ main\ method\ declares,\ creates,\ and\ fills\ an\ array\ of\ \n\ \ 12\ integers.\ Each\ integer\ is\ a\ random\ number\ ranging\ from\ 1-319,\ and\ each\n\ \ number\ represents\ a\ number\ of\ ounces.\n
+comment1.params=myWeights
+comment1.target=void\ printArrayValues(int[])
+comment1.text=\ The\ method\ printArrayValues\ will\ take\ an\ array\ of\ ints\ as\ a\ parameter,\ \n\ \ print\ it\ with\ 5\ integers\ per\ line,\ and\ use\ 5\ positions\n\ \ to\ print\ each\ array\ value.\ It\ is\ void\ so\ it\ doesn't\ return\ a\ value.\n
+comment2.params=myWeights
+comment2.target=void\ printWeights(int[])
+comment2.text=\ The\ method\ printWeights\ will\ take\ an\ array\ of\ ints\ as\ a\ parameter,\n\ \ and\ separate\ each\ array\ value\ into\ pounds\ and\ ounces.\ It\ then\ prints\n\ \ one\ time\ per\ line.\ It\ is\ void\ so\ it\ doesn't\ return\ a\ value.\n
+comment3.params=myWeights
+comment3.target=int\ sumWeights(int[])
+comment3.text=\ The\ method\ sumWeights\ will\ take\ an\ array\ of\ ints\ as\ a\ parameter.\n\ \ It\ adds\ all\ entries\ in\ the\ array,\ converts\ the\ value\ to\ pounds,\ and\n\ \ truncates\ any\ leftover\ ounces.\ The\ int\ variable\ sum\ holds\n\ \ the\ myWeights\ sum\ each\ time\ the\ method\ loops.\ It\ returns\n\ \ the\ pounds\ value\ as\ an\ integer.\ Variable\ sumWeights\ is\ assigned\ the\n\ \ first\ value\ in\ the\ myWeights\ array\ to\ begin\ the\ summing\ process.\n
+comment4.params=threshold\ myWeights
+comment4.target=int[]\ overGivenPounds(int,\ int[])
+comment4.text=\ The\ method\ overGivenPounds\ will\ take\ an\ integer\ (threshold\ of\ pounds)\ and\n\ \ an\ array\ of\ ints\ (ounces)\ as\ its\ two\ parameters.\ This\ method\ examines\ each\n\ \ entry\ in\ the\ array\ to\ see\ if\ its\ weight\ exceeds\ the\ number\ of\ pounds\ given\n\ \ in\ the\ first\ parameter.\ The\ method\ creates\ an\ array\ of\ ints\ that\ holds\ values\n\ \ from\ the\ original\ array\ that\ exceed\ that\ threshold\ of\ pounds.\ The\ method\ returns\n\ \ this\ new\ array\ to\ the\ calling\ method.\ Variable\ ouncesThreshold\ is\ assigned\n\ \ the\ value\ of\ 8\ pounds\ in\ equivalent\ ounces\ so\ we're\ dealing\ with\ the\ same\n\ \ measurement\ of\ weight.\n
+comment5.params=myWeights
+comment5.target=int[]\ blocks(int[])
+comment5.text=\ The\ method\ blocks\ will\ take\ an\ array\ of\ ints\ as\ a\ parameter.\ This\ method\ builds\n\ \ an\ array\ that\ holds\ the\ counts\ of\ the\ weights\ falling\ into\ each\ block's\ range.\n\ \ The\ method\ returns\ this\ new\ array\ to\ the\ calling\ method.\ The\ block\ variables\ are\n\ \ each\ assigned\ a\ value\ to\ separate\ them\ in\ different\ weight\ ranges.\n
+numComments=6
